@@ -1,0 +1,23 @@
+// Fonts
+$headings-font-family: 'Love Ya Like A Sister', cursive;
+$font-family-base: 'Poppins', sans-serif;
+
+
+// Colors
+$primary: #fff; 
+$secondary: #7A44FE;
+$dark: #000000;
+$light: #414141;
+
+
+// SCSS
+.hero {
+    background-image: url(/src/images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 75vh;
+    
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
