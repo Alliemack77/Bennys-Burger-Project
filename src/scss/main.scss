@@ -14,10 +14,15 @@ $light: #414141;
 .hero {
     background-image: url(/src/images/lidye-1Shk_PkNkNw-unsplash.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: cover;
     background-repeat: no-repeat;
-    height: 75vh;
-    
+    height: 95vh;
+}
+
+#logo-img {
+    border: solid red 2px;
+    height: 10px;
+    width: 10px;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
