@@ -1,4 +1,5 @@
 {
+  "homepage": "https://alliemack77.github.io/Bennys-Burger-Project/.",
   "name": "",
   "version": "1.0.0",
   "description": "",
@@ -7,7 +8,8 @@
   "scripts": {
     "start": "run-p watch watch:styles",
     "build": "run-s clean clean:styles build:styles copy",
-    "deploy": "run-s build publish",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build:styles": "sass src/scss:src/styles",
     "watch": "live-server src",
     "watch:styles": "sass src/scss:src/styles --watch",
@@ -15,6 +17,7 @@
     "clean:styles": "rm -rf src/styles",
     "copy": "mkdir dist && rsync -avr --exclude=\"/scss\" src/ dist",
     "publish": "gh-pages -d dist"
+    
   },
   "keywords": [],
   "license": "ISC",
@@ -28,3 +31,5 @@
     "sass": "^1.23.0-module.beta.1"
   }
 }
+
+//run-s build publish
