@@ -6,10 +6,7 @@
   "main": "index.html",
   "author": "",
   "scripts": {
-    
     "deploy":  "gh-pages -d src"
-    
-    
   },
   "keywords": [],
   "license": "ISC",
