@@ -1,6 +1,6 @@
 {
-  "homepage": "https://alliemack77.github.io/Bennys-Burger-Project/.",
-  "name": "",
+  "homepage": "https://alliemack77.github.io/Bennys-Burger-Project/",
+  "name": "bennysburger",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -32,4 +32,3 @@
   }
 }
 
-//run-s build publish
