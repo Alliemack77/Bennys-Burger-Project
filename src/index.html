@@ -17,7 +17,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <a class="navbar-brand text-secondary"  href="#">
-        <img src="src/images/hamburger.svg" width="50px" alt="Benny's Burger Logo">
+        <img src="images/hamburger.svg" width="50px" alt="Benny's Burger Logo">
         Benny's
       </a>
 
@@ -303,13 +303,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
-<!-- run-s build publish ORIGIONAL-->
-<!-- gh-pages -d build -->
+
+<!-- Scripts from package.json -->
+<!-- run-s build publish ORIGIONAL deploy-->
+<!-- gh-pages -d build VERSION deploy-->
 <!-- "start": "run-p watch watch:styles",
     "build": "run-s clean clean:styles build:styles copy",
-    "predeploy": "npm run build", -->
-
-    <!-- "build:styles": "sass src/scss:src/styles",
+    "predeploy": "npm run build", 
+    
+    "build:styles": "sass src/scss:src/styles",
     "watch": "live-server src",
     "watch:styles": "sass src/scss:src/styles --watch",
     "clean": "rm -rf dist",
